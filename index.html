@@ -46,23 +46,15 @@
     }
 
     /* Logo circular altamente responsive */
-    .profile-pic {
-      width: min(150px, 35vw);
-      height: min(150px, 35vw);
-      border-radius: 50%;
-      background: #B59379;
-      color: white;
-      font-weight: bold;
-      font-size: clamp(10px, 2.5vw, 14px);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      margin: 0 auto 1.5rem;
-      transition: transform 0.3s ease;
-      line-height: 1.2;
-      padding: 10px;
-    }
+      .profile-pic {
+        width: min(150px, 35vw);
+        height: min(150px, 35vw);
+        border-radius: 50%;
+        margin: 0 auto 1.5rem;
+        transition: transform 0.3s ease;
+        object-fit: cover;
+        display: block;
+      }
 
     .profile-pic:hover {
       transform: scale(1.05);
@@ -303,10 +295,8 @@
 </head>
 <body>
   <main class="container-profile">
-    <!-- Logo circular -->
-    <div class="profile-pic">
-      FASHION COLLECTION
-    </div>
+      <!-- Logo circular -->
+      <img src="LogoFashion.jpeg" alt="Logo Fashion Collection" class="profile-pic" />
     
     <!-- Nombre y subtítulo -->
     <h1 class="profile-name">Fashion Collection</h1>
