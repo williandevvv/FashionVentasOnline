@@ -9,4 +9,4 @@ Este proyecto está bajo derechos de autor su uso indevido tendra consecuencias
 
 ---
 
-¡Gracias por visitar FashionRedes! 👗🌟
+¡Gracias por visitar FashionVentas! 👗🌟
